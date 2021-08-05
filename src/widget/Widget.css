@@ -1,0 +1,21 @@
+.widget{
+    flex:0.2;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    height: fit-content;  /* 不要忘記加這行，和sticky搭配使用 */
+    top: 85px;
+}
+
+.widget-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    height: 300px;
+
+    border:1px solid lightgrey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}

@@ -1,0 +1,19 @@
+.single-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    color: gray;
+    font-weight: 700;
+}
+
+.single-option>p{
+    margin-left: 5px;
+}
+
+.single-option:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}

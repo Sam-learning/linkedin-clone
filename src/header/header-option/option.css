@@ -1,0 +1,16 @@
+.header-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.header-option > h5{
+    color: grey;
+}
+
+.icon{
+    object-fit: contain !important;
+    height: 30px !important;
+    width: 30px !important;
+}

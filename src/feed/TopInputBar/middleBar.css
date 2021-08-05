@@ -1,0 +1,43 @@
+.middleBar{
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: sticky;
+    height: fit-content;
+    top: 85px;
+    z-index: 10;
+}
+
+
+.inputField{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.inputField > input{
+    font-size: 1.1rem;
+    outline: none;
+    border:0px;
+    width: 100%;
+}
+
+.inputField > Button{
+    border-radius: 20px !important;
+    color: gray !important;
+}
+
+
+
+.top-InputOption{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
